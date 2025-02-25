@@ -1,2 +1,12 @@
 # RandomForest4-sensibilidad-farmacologica
-En este repositorio analizo el rendimiento de RandomForestRegressor para la predicción de la sensibilidad farmacológica de las células cancerosas. 
+**Introducción**
+
+La predicción de la sensibilidad de fármacos en células cancerígenas es un área de gran interés en la investigación farmacológica, pues permite personalizar tratamientos y mejorar los resultados terapéuticos en pacientes con cáncer. En este contexto, los modelos de Machine Learning han demostrado ser herramientas poderosas para predecir cómo diferentes células cancerígenas responderán a diversos fármacos, basándose en datos genómicos y moleculares. 
+
+Esta investigación se enfoca en el uso de **Random Forest**, un modelo de Machine Learning basado en árboles de decisión, para predecir la sensibilidad de varios fármacos en células cancerosas. A través del uso de datos proporcionados por el proyecto **Genomics of Drug Sensitivity in Cancer (GDSC)**, se busca entrenar un modelo que sea capaz de estimar con precisión la **sensibilidad a fármacos** en función de características genómicas de las células. En particular, la variable objetivo de este proyecto es el **LN_IC50**, que indica la concentración de un fármaco necesaria para inhibir la viabilidad celular al 50%.
+
+A lo largo de este proyecto, se compararán los resultados del modelo de **Random Forest** con los de otros enfoques, como el **Árbol de Decisión**, para determinar cuál proporciona un mejor desempeño en la predicción de la sensibilidad de los fármacos en cáncer. El objetivo final es identificar un modelo robusto y eficiente que pueda contribuir a la mejora de tratamientos farmacológicos dirigidos y personalizados para pacientes con cáncer.
+
+Este análisis busca profundizar en la aplicabilidad de Random Forest y Desicion Tree en la predicción farmacológica, un área prometedora de la inteligencia artificial en biomedicina.
+
+El data set utilizado proviene del proyecto **Genomics of drugs Sensitivity in cancer (GDSC)**, que contiene información sobre la respuesta de células cancerígenas a varios tratamientos. Este dataset esta distribuido bajo licencia GPL 3 y puedes descargarlo directamente de este link [Kaggle GDSC](https://www.kaggle.com/datasets/samiraalipour/genomics-of-drug-sensitivity-in-cancer-gdsc).
