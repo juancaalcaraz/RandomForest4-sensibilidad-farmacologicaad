@@ -24,4 +24,8 @@ Después de codificar las variables, obtuvimos la siguiente matriz de correlaci�
 
 🔹 **Aclaración:** Las columnas con el sufijo `_encoder` eran originalmente categóricas.  
 ![Matriz de correlacion](/imagenes/Matriz.png)
+Con esta matriz podemos inferir que las columnas 'AUC' y 'Z_SCORE' son las que mejor van a explicar nuestra variable objetivo 'LN_IC50'.
 
+Variables utilizadas:
+Utilicé selectKbest para encontrar los mejores predictores para 'LN_IC50'. Las variables seleccionadas fueron:
+<<<Características seleccionadas: ['AUC', 'Z_SCORE', 'GDSC Tissue descriptor 2_encoder', 'Growth Properties_encoder', 'TARGET_PATHWAY_encoder']>>>
