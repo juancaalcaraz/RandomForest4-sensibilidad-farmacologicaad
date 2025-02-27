@@ -23,5 +23,5 @@ Como la mayoría de las columnas contienen variables categóricas, utilizamos `L
 Después de codificar las variables, obtuvimos la siguiente matriz de correlación de las columnas.  
 
 🔹 **Aclaración:** Las columnas con el sufijo `_encoder` eran originalmente categóricas.  
-![Matriz de correlacion](assets/imagenes/Matriz.png)
+![Matriz de correlacion](/imagenes/Matriz.png)
 
