@@ -10,3 +10,9 @@ A lo largo de este proyecto, se compararán los resultados del modelo de **Rando
 Este análisis busca profundizar en la aplicabilidad de Random Forest y Desicion Tree en la predicción farmacológica, un área prometedora de la inteligencia artificial en biomedicina.
 
 El data set utilizado proviene del proyecto **Genomics of drugs Sensitivity in cancer (GDSC)**, que contiene información sobre la respuesta de células cancerígenas a varios tratamientos. Este dataset esta distribuido bajo licencia GPL 3 y puedes descargarlo directamente de este link [Kaggle GDSC](https://www.kaggle.com/datasets/samiraalipour/genomics-of-drug-sensitivity-in-cancer-gdsc).
+### Librerías utilizadas
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
