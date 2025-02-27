@@ -34,11 +34,9 @@ Utilicé selectKbest para encontrar los mejores predictores para 'LN_IC50'. Las 
 Para enternar el modelo se procedió primero a realizar una validación cruzada de 10 folds donde obtuvimos 
 una puntuación media de **0.76**. 
 Luego se realizaó una búsqueda de cuadricula con *GridSearchCV* para encontrar los mejores hiperparámetros
-para Random Forest y el resultado fue el siguiente: 
-''' 
-salida:
-Mejores hiperparámetros: {'max_depth': 15, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 500}
-RMSE: 1.6713
-R2 Score: 0.7809
+para Random Forest y el resultado fue el siguiente.
 
-''' 
+Mejores hiperparámetros: {'max_depth': 15, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 500}
+     RMSE: 1.6713
+    R2 Score: 0.7809
+
