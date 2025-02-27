@@ -48,3 +48,13 @@ Como podemos observar, tenemos un índice alto de aciertos, ya que la barra de e
 
 Gráfico de dispersión con línea de tendencia
 ![Gráfico de disperción y línea](/imagenes/Pred.png)
+Análisis del gráfico de predicciones vs valores reales
+En este gráfico se comparan los valores reales con las predicciones del modelo RandomForestRegressor.
+
+La línea roja representa la relación ideal donde predicción = valor real.
+Los puntos de colores indican el error del modelo:
+- Azul: el modelo subestimó el valor real.
+- Rojo: el modelo sobreestimó el valor real.
+- Blanco/Gris: errores pequeños, predicciones más precisas.
+→ Se observa una buena alineación con la línea roja, aunque hay mayor dispersión en valores extremos.
+Esto sugiere que el modelo tiene un buen desempeño, pero puede mejorar en la predicción de valores más alejados del centro de la distribución.
