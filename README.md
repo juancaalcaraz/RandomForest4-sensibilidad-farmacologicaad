@@ -56,5 +56,7 @@ Los puntos de colores indican el error del modelo:
 - Azul: el modelo subestimó el valor real.
 - Rojo: el modelo sobreestimó el valor real.
 - Blanco/Gris: errores pequeños, predicciones más precisas.
+
+
 → Se observa una buena alineación con la línea roja, aunque hay mayor dispersión en valores extremos.
 Esto sugiere que el modelo tiene un buen desempeño, pero puede mejorar en la predicción de valores más alejados del centro de la distribución.
