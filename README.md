@@ -16,3 +16,8 @@ El data set utilizado proviene del proyecto **Genomics of drugs Sensitivity in c
 - scikit-learn
 - matplotlib
 - seaborn
+## Cambios realizados a las Columnas
+Como la mayoria de las columnas contiene variables categoricas utilizamos LabelEncoder para codificar estas variables como entero sin antes llenar los campos vacios con la categoria desconocidos. 
+## Matriz de correlación
+Luego de codificar las variables obtenemos como resultado la siguiente matriz de correlación de las columnas. Aclaración: las columnas con sufijo _encoder anteriormente eran columnas categóricas.
+
