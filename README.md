@@ -23,5 +23,5 @@ Como la mayoría de las columnas contienen variables categóricas, utilizamos `L
 Después de codificar las variables, obtuvimos la siguiente matriz de correlación de las columnas.  
 
 🔹 **Aclaración:** Las columnas con el sufijo `_encoder` eran originalmente categóricas.  
-![Matriz de correlación]([imagenes\Matriz de variables.png](https://github.com/juancaalcaraz/RandomForest4-sensibilidad-farmacologicaad/blob/main/imagenes/Matriz%20de%20variables.png))
+!alt text Matriz (https://github.com/juancaalcaraz/RandomForest4-sensibilidad-farmacologicaad/blob/main/imagenes/Matriz%20de%20variables.png))
 
