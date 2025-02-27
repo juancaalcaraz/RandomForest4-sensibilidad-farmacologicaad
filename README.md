@@ -30,13 +30,21 @@ Con esta matriz podemos inferir que las columnas 'AUC' y 'Z_SCORE' son las que m
 Utilicé selectKbest para encontrar los mejores predictores para 'LN_IC50'. Las variables seleccionadas fueron:
 <<<Características seleccionadas: ['AUC', 'Z_SCORE', 'GDSC Tissue descriptor 2_encoder', 'Growth Properties_encoder', 'TARGET_PATHWAY_encoder']>>>
 
-## Entrenamiento del modelo
-Para enternar el modelo se procedió primero a realizar una validación cruzada de 10 folds donde obtuvimos 
-una puntuación media de **0.76**. 
-Luego se realizaó una búsqueda de cuadricula con *GridSearchCV* para encontrar los mejores hiperparámetros
-para Random Forest y el resultado fue el siguiente.
+## Entrenamiento del modelo:
+Para entrenar el modelo, primero se realizó una validación cruzada de 10 pliegues (folds), obteniendo una puntuación media de 0.76.
+Luego, se realizó una búsqueda de cuadrícula con GridSearchCV para encontrar los mejores hiperparámetros para Random Forest, y el resultado fue el siguiente:
 
-Mejores hiperparámetros: {'max_depth': 15, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 500}
-     RMSE: 1.6713
-    R2 Score: 0.7809
+Mejores hiperparámetros:
+{'max_depth': 15, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 500}
+RMSE: 1.6713
+R2 Score: 0.7809
 
+## Rendimiento del modelo:
+Después de entrenar el modelo, procedimos a validar sus métricas con el dataset creado para el test.
+
+Conteo de errores en la predicción
+![Gráfico de barra](/imagenes/Distr.png)
+Como podemos observar, tenemos un índice alto de aciertos, ya que la barra de error en 0.0 es la más alta.
+
+Gráfico de dispersión con línea de tendencia
+![Gráfico de disperción y línea](/imagenes/Pred.png)
